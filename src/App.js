@@ -4,7 +4,7 @@ import Cards from './components/Cards';
 import Alert from './components/Alert';
 import {Container, Row, Col} from 'react-bootstrap'
 
-let isFirst = 0
+let numberOfRenders = 0
 
 export default function App() {
   const [usedCards, setUsedCards] = useState([])
@@ -21,15 +21,14 @@ export default function App() {
   }
 
   useEffect(() => {
-    console.log(isFirst)
-    if (isFirst > 1) {
+    if (numberOfRenders > 1) {
       const alert = document.getElementById('alert');
       alert.style.visibility = 'visible'
       setTimeout(() => {
         alert.style.visibility = 'hidden'
       }, 3000);
     }
-    isFirst++
+    numberOfRenders++
   }, [doubleClicked]);
 
   return (
