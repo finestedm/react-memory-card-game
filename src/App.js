@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Card from './components/Card';
+import ScoreDisplay from './components/ScoreDisplay';
+import Cards from './components/Cards';
 
-function App() {
+export default function App() {
+  const [usedCards, setUsedCards] = useState([])
+  const [score, setScore] = useState(0)
+
+  function handleClick(id) {
+    if (usedCards.includes(id)) {
+      console.log('no point')
+    } else {
+      setUsedCards([...usedCards, id]);
+      setScore(score + 1);
+    }
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Card handleClick={handleClick} id={'1'} />
+      <Card handleClick={handleClick} id={'2'} /> */}
+      <ScoreDisplay score={score} />
+      <Cards handleClick={handleClick}/>
+
     </div>
   );
 }
-
-export default App;
