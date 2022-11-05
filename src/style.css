@@ -11,3 +11,30 @@
 .card:hover {
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
 }
+
+#tutorial {
+    transition: all 1s ease !important;
+    z-index: 999;
+    box-shadow: 0 0 100px 20px rgba(0, 0, 0, 0.45);
+}
+
+.hidden {
+    opacity: 0;
+    z-index: -999;
+}
+
+#score {
+    transition: all .25s ease-out !important;
+}
+
+.flash-danger {
+    color: red
+}
+
+#high-score {
+    transition: all .25s ease-out !important;
+}
+
+.flash-success {
+    color: green
+}

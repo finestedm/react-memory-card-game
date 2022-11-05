@@ -8,6 +8,7 @@ export default function Cards(props) {
     var usedRandom = [];
 
     function importAll(r) {
+        console.log(r.keys())
         let images = [];
         r.keys().forEach((item) => images.push(r(item)));
         return images;
