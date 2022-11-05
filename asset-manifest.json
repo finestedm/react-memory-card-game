@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-memory-card-game/static/css/main.c07f64bd.css",
-    "main.js": "/react-memory-card-game/static/js/main.e72cdb7a.js",
-    "static/media/1.jpg": "/react-memory-card-game/static/media/1.291a6f9fd520d97b65cb.jpg",
+    "main.css": "/react-memory-card-game/static/css/main.d831d68e.css",
+    "main.js": "/react-memory-card-game/static/js/main.41abfa7e.js",
+    "static/media/Ferrari 488 gte.jpg": "/react-memory-card-game/static/media/Ferrari 488 gte.291a6f9fd520d97b65cb.jpg",
     "static/media/2.jpg": "/react-memory-card-game/static/media/2.d60d490ee15b1c43f542.jpg",
     "static/media/3.jpg": "/react-memory-card-game/static/media/3.cf70527577bf8119ea79.jpg",
     "static/media/4.jpg": "/react-memory-card-game/static/media/4.8654b65ebe7e78a97bc2.jpg",
     "static/media/6.jpg": "/react-memory-card-game/static/media/6.4079a1810a3d85ac0b7a.jpg",
     "static/media/5.jpg": "/react-memory-card-game/static/media/5.a6379e8b0fcdfcecb566.jpg",
     "index.html": "/react-memory-card-game/index.html",
-    "main.c07f64bd.css.map": "/react-memory-card-game/static/css/main.c07f64bd.css.map",
-    "main.e72cdb7a.js.map": "/react-memory-card-game/static/js/main.e72cdb7a.js.map"
+    "main.d831d68e.css.map": "/react-memory-card-game/static/css/main.d831d68e.css.map",
+    "main.41abfa7e.js.map": "/react-memory-card-game/static/js/main.41abfa7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c07f64bd.css",
-    "static/js/main.e72cdb7a.js"
+    "static/css/main.d831d68e.css",
+    "static/js/main.41abfa7e.js"
   ]
 }
