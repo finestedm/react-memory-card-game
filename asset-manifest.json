@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/react-memory-card-game/static/css/main.d831d68e.css",
-    "main.js": "/react-memory-card-game/static/js/main.41abfa7e.js",
+    "main.css": "/react-memory-card-game/static/css/main.27589835.css",
+    "main.js": "/react-memory-card-game/static/js/main.9780afbc.js",
+    "static/media/PMW-Web-June-10-LMP2-e1654874650259.jpg": "/react-memory-card-game/static/media/PMW-Web-June-10-LMP2-e1654874650259.998b418a786596b8b373.jpg",
+    "static/media/Le-Mans-1.jpg": "/react-memory-card-game/static/media/Le-Mans-1.90eba79f91ad4616bb6f.jpg",
+    "static/media/Lu8SRnjwhv6L3zmn.jpg": "/react-memory-card-game/static/media/Lu8SRnjwhv6L3zmn.6c25c0b5cf11de6c2873.jpg",
     "static/media/Ferrari 488 gte.jpg": "/react-memory-card-game/static/media/Ferrari 488 gte.291a6f9fd520d97b65cb.jpg",
     "static/media/2.jpg": "/react-memory-card-game/static/media/2.d60d490ee15b1c43f542.jpg",
     "static/media/3.jpg": "/react-memory-card-game/static/media/3.cf70527577bf8119ea79.jpg",
@@ -9,11 +12,11 @@
     "static/media/6.jpg": "/react-memory-card-game/static/media/6.4079a1810a3d85ac0b7a.jpg",
     "static/media/5.jpg": "/react-memory-card-game/static/media/5.a6379e8b0fcdfcecb566.jpg",
     "index.html": "/react-memory-card-game/index.html",
-    "main.d831d68e.css.map": "/react-memory-card-game/static/css/main.d831d68e.css.map",
-    "main.41abfa7e.js.map": "/react-memory-card-game/static/js/main.41abfa7e.js.map"
+    "main.27589835.css.map": "/react-memory-card-game/static/css/main.27589835.css.map",
+    "main.9780afbc.js.map": "/react-memory-card-game/static/js/main.9780afbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d831d68e.css",
-    "static/js/main.41abfa7e.js"
+    "static/css/main.27589835.css",
+    "static/js/main.9780afbc.js"
   ]
 }
