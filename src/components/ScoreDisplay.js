@@ -32,7 +32,7 @@ export default function ScoreDisplay(props) {
                 <h3 className='text-light' id='score'>Score: {props.score}</h3><h3 className='text-light' id='high-score'>, High Score: {highScore}</h3>
             </Col>
 
-            <Col className='score-display d-inline d-sm-none position-fixed start-50 translate-middle bottom-0 text-end align-items-center p-2 bg-dark' style={{'--bs-bg-opacity': '.75'}}>
+            <Col className='score-display d-inline d-sm-none text-center position-fixed start-50 translate-middle bottom-0 text-end align-items-center p-3 bg-dark' style={{'--bs-bg-opacity': '.85'}}>
                 <p className='text-light m-0' id='score-fixed'>Score: {props.score}</p><p className='text-light m-0' id='high-score-fixed'> High Score: {highScore}</p>
             </Col>
 

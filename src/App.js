@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ScoreDisplay from './components/ScoreDisplay';
 import Cards from './components/Cards';
 import Alert from './components/Alert';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Stack } from 'react-bootstrap'
 import Header from './components/Header'
 
 
@@ -65,16 +65,16 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <Stack className='p-0 '>
       <Header />
-      <div className='backdrop container-fluid vh-100' />
-      <Container className="App text-center vh-100 p-0">
+      <div className='backdrop container-fluid' />
+      <Container className="App  text-center p-0">
         {!tutorialDiscarded && <Alert discardTutorial={discardTutorial} tutorialDiscarded={tutorialDiscarded} />}
         <ScoreDisplay score={score} />
-        <Row className="text-center justify-content-center">
+        <Row className="justify-content-center align-items-center m-0">
           <Cards handleClick={handleClick}/>
         </Row>
       </Container>
-    </>
+    </Stack>
   );
 }

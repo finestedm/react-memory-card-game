@@ -25,12 +25,10 @@ export default function Cards(props) {
     }
     
     return (
-        <Row className='justify-content-center'>
-            {images.map(image => 
+            images.map(image => 
                 <Col key={uniqid()} xs={6} md={4} lg={3} className={'p-2 order-'+getRandomOrder()} >
                     <Card id={images.indexOf(image)} image={image} handleClick={props.handleClick} />
                 </Col>)
-            }
-        </Row>
+            
     )
 }
